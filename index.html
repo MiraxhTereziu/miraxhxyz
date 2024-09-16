@@ -10,7 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylex.css" />
   </head>
   <body>
     <script
@@ -29,24 +29,66 @@
       crossorigin="anonymous"
     ></script>
 
-    <!--Actaul code-->
-
-    <div class="container text-center">
-      <div class="row" style="background-color: blue">top bar</div>
-      <div class="row">
-        <div class="col-sm">
-          <div class="row">
-            <div class="col-sm" style="background-color: yellow">aaa</div>
-            <div class="col-sm" style="background-color: red">aaa</div>
+    <!--Actaul code -->
+    <div
+      class="container min-vh-100 d-flex flex-column"
+      style="background-color: black"
+    >
+      <!-- Top Bar -->
+      <div class="row" style="background-color: blue; height: 50px">
+        top bar
+      </div>
+      <!-- Main Content -->
+      <div class="row flex-grow-1" style="background-color: aqua">
+        <!-- Left Column (Motto + Photo) -->
+        <div class="col-sm d-flex flex-column">
+          <!-- Motto + Photo -->
+          <div class="row flex-grow-1">
+            <div
+              class="col-sm d-flex justify-content-center align-items-center"
+              style="background-color: green"
+            >
+              motto
+            </div>
+            <div
+              class="col-sm d-flex justify-content-center align-items-center photo"
+              style="background-color: yellow"
+            >
+              photo
+            </div>
           </div>
-          <div class="row">
-            <div class="col-sm" style="background-color: chartreuse">aaa</div>
-            <div class="col-sm" style="background-color: coral">aaa</div>
+          <!-- CV + Contact -->
+          <div class="row flex-grow-1">
+            <div
+              class="col-sm d-flex justify-content-center align-items-center"
+              style="background-color: purple"
+            >
+              cv
+            </div>
+            <div
+              class="col-sm d-flex justify-content-center align-items-center"
+              style="background-color: bisque"
+            >
+              contact
+            </div>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="row" style="background-color: blueviolet">aaa</div>
-          <div class="row" style="background-color: green">aaa</div>
+        <!-- Right Column (Projects + Social) -->
+        <div class="col-sm d-flex flex-column">
+          <!-- Projects -->
+          <div
+            class="row flex-grow-1 d-flex justify-content-center align-items-center"
+            style="background-color: brown"
+          >
+            projects
+          </div>
+          <!-- Social -->
+          <div
+            class="row flex-grow-1 d-flex justify-content-center align-items-center"
+            style="background-color: cornflowerblue"
+          >
+            social
+          </div>
         </div>
       </div>
     </div>
