@@ -1,8 +1,12 @@
-#main {
-  height: 100vh;
-  background-color: aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#title {
-  vertical-align: middle;
+.cell {
+  border: 2px;
+  border-color: blueviolet;
+
+  padding: 2em;
 }
