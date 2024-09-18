@@ -1,90 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.cell {
-  border: 2px;
-  border-color: blueviolet;
-  padding: 2em;
-}
-
 body {
-}
-
-body {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff2cc;
 }
 
-.container {
-  background-color: white;
-  width: 100em;
-  height: 100vh;
-  padding: 2em;
-  display: flex;
-  gap: 2em;
-  flex-direction: column;
-  background-color: aquamarine;
+h1 {
+  font-family: "Bebas Neue";
+  color: black;
+  font-size: 8vw;
 }
 
-.left {
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-}
-
-.topbar {
+p {
+  font-family: "Work Sans";
+  color: black;
+  font-size: 1.5vw;
 }
 
 .main {
-  flex: 8;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  background-color: black;
-  gap: 2em;
+  flex-direction: column;
 }
 
-.projets {
-  background-color: brown;
-}
-
-.social {
-  background-color: darkkhaki;
-}
-
-.bio {
-  flex: 1.5;
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-}
-
-.motto {
-  background-color: yellow;
-}
-
-.photo {
-  background-color: red;
-}
-
-.info {
+.topbar {
   flex: 1;
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
+  padding: 4em;
 }
 
-.cv {
-  background-color: greenyellow;
+.hero {
+  flex: 4;
+  padding: 4em;
 }
 
-.contact {
-  background-color: coral;
+.prj1 {
+  flex: 1;
+  background-color: #d9ead3;
+  padding: 4em;
+}
+
+.prj2 {
+  flex: 1;
+  background-color: #c9daf8;
+  padding: 4em;
+}
+
+.prj3 {
+  flex: 1;
+  background-color: #f4cccc;
+  padding: 4em;
 }
